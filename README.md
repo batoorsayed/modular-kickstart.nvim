@@ -1,5 +1,5 @@
 # kickstart.nvim
-![hmmhmmgood](image.png)
+![hmmhmmgood](doc/justwroks.png)
 
 Neovim configuration, just the way I like it. Slightly undercooked with no seasoning.
 
