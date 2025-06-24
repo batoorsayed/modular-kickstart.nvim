@@ -8,8 +8,8 @@ Neovim configuration, just the way I like it. Slightly undercooked with no seaso
 A starting point for Neovim that is:
 
 * Small
-* Single-file
-* Completely Documented
+* ~Single-file~ - Modular, but still understandable
+* ~Completely Documented~ - Discarded unnecessary documentation that confused me even more. Refer to upstream for more details.
 
 **NOT** a Neovim distribution, but instead a starting point for your configuration.
 
