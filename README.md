@@ -1,4 +1,7 @@
 # kickstart.nvim
+![hmmhmmgood](image.png)
+
+Neovim configuration, just the way I like it. Slightly undercooked with no seasoning.
 
 ## Introduction
 

@@ -1,3 +1,5 @@
+-- An asynchronous linter plugin for Neovim (>= 0.9.5) complementary to the built-in Language Server Protocol support.
+-- https://github.com/mfussenegger/nvim-lint
 return {
 
   { -- Linting
@@ -58,3 +60,6 @@ return {
     end,
   },
 }
+
+-- See `:help modeline`
+-- vim: ts=2 sts=2 sw=2 et
