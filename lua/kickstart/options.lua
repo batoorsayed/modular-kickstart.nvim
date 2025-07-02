@@ -61,6 +61,8 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- Set guiding lines at 80 and 120 characters
+vim.o.colorcolumn = '80,120'
 
 -- See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

@@ -10,7 +10,6 @@
 -- lazydev.nvim is a plugin that properly configures LuaLS for editing your Neovim config by lazily updating your workspace libraries.
 -- https://github.com/folke/lazydev.nvim
 
-
 return { -- Autocompletion
   {
     'saghen/blink.cmp',
@@ -79,14 +78,13 @@ return { -- Autocompletion
       snippets = { preset = 'luasnip' },
 
       -- See :h blink-cmp-config-fuzzy for more information
-      fuzzy = { implementation = 'lua' },
+      fuzzy = { implementation = 'prefer_rust_with_warning' },
 
       -- Shows a signature help window while you type arguments for a function
       signature = { enabled = true },
     },
   },
 }
-
 
 -- See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
