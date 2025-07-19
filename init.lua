@@ -32,7 +32,7 @@ require('lazy').setup({
   require 'kickstart.plugins.lspconfig',       -- Language Server Protocol (LSP) configuration
   require 'kickstart.plugins.autoformat',      -- Automatically formats code on save
   require 'kickstart.plugins.autocompletion',  -- Autocompletion for code
-  require 'kickstart.plugins.rosepine',        -- Soho vibes for Neovim
+  require 'kickstart.plugins.catppuccin',      -- Soothing pastel theme for (Neo)vim
   require 'kickstart.plugins.todo-comments',   -- Highlight TODO comments in code
   require 'kickstart.plugins.mini-nvim',       -- Collection of various small independent plugins/modules
   require 'kickstart.plugins.nvim-treesitter', -- Highlight, edit, and navigate code

@@ -1,23 +1,22 @@
--- Soho vibes for Neovim
--- https://github.com/rose-pine/neovim
-
+-- 🍨 Soothing pastel theme for (Neo)vim
+-- https://github.com/catppuccin/nvim
 
 -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
 
 return {
   {
-    -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
-    'rose-pine/neovim',
+    'catppuccin/nvim',
     priority = 1000, -- Make sure to load this before all the other start plugins.
     config = function()
       ---@diagnostic disable-next-line: missing-fields
-      require('rose-pine').setup {
+      require('catppuccin').setup {
+        no_italic = true,
         styles = {
-          italic = false, -- fuck italics, all my homies hate italics
+          -- italic = false, -- fuck italics, all my homies hate italics
           -- comments = { italic = false }, -- Disable italics in comments
         },
       }
-      vim.cmd.colorscheme 'rose-pine'
+      vim.cmd.colorscheme 'catppuccin'
     end,
   },
 }
