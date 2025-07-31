@@ -171,10 +171,10 @@ return {
             python = {
               disableOrganizeImports = true,
               analysis = {
-                -- typeCheckingMode = 'basic', -- 'off', default = 'basic', 'strict'
-                -- autoSearchPaths = true, -- default = true
+                typeCheckingMode = 'basic',   -- 'off', default = 'basic', 'strict'
+                autoSearchPaths = true,       -- default = true
                 useLibraryCodeForTypes = true,
-                -- diagnosticMode = 'workspace', -- 'workspace', default = 'openFilesOnly'
+                diagnosticMode = 'workspace', -- 'workspace', default = 'openFilesOnly'
               },
             },
           },
