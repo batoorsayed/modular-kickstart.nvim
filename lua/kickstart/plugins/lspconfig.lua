@@ -4,7 +4,6 @@
 -- https://github.com/j-hui/fidget.nvim
 -- https://github.com/Saghen/blink.cmp
 
-
 return {
   {
     -- `lazydev` configures Lua LSP for your Neovim config, runtime and plugins
@@ -30,7 +29,7 @@ return {
       'WhoIsSethDaniel/mason-tool-installer.nvim',
 
       -- Useful status updates for LSP.
-      { 'j-hui/fidget.nvim',    opts = {} },
+      { 'j-hui/fidget.nvim', opts = {} },
 
       -- Allows extra capabilities provided by blink.cmp
       'saghen/blink.cmp',
@@ -171,8 +170,8 @@ return {
             python = {
               disableOrganizeImports = true,
               analysis = {
-                typeCheckingMode = 'basic',   -- 'off', default = 'basic', 'strict'
-                autoSearchPaths = true,       -- default = true
+                typeCheckingMode = 'strict', -- 'off', default = 'basic', 'strict'
+                autoSearchPaths = true, -- default = true
                 useLibraryCodeForTypes = true,
                 diagnosticMode = 'workspace', -- 'workspace', default = 'openFilesOnly'
               },
@@ -196,7 +195,7 @@ return {
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, {
         'stylua', -- Used to format Lua code
-        'ruff',   -- Used to format Python code
+        'ruff', -- Used to format Python code
         'markdownlint', -- Markdown linter
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
