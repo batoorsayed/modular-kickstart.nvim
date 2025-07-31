@@ -10,6 +10,7 @@ A starting point for Neovim that is:
 * Small
 * ~Single-file~ - Modular, but still understandable
 * ~Completely Documented~ - Discarded unnecessary documentation that confused me even more. Refer to upstream for more details.
+* Focuses primarily on python development, while keeping kickstart.nvim ethos
 
 **NOT** a Neovim distribution, but instead a starting point for your configuration.
 
