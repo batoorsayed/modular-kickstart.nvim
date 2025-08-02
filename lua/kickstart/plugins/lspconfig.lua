@@ -174,6 +174,12 @@ return {
                 autoSearchPaths = true, -- default = true
                 useLibraryCodeForTypes = true,
                 diagnosticMode = 'workspace', -- 'workspace', default = 'openFilesOnly'
+                inlayHints = {
+                  variableTypes = true,
+                  functionReturnTypes = true,
+                  callArgumentNames = true,
+                  parameterNames = true,
+                },
               },
             },
           },
