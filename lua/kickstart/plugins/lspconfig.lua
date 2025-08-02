@@ -175,10 +175,10 @@ return {
                 useLibraryCodeForTypes = true,
                 diagnosticMode = 'workspace', -- 'workspace', default = 'openFilesOnly'
                 inlayHints = {
-                  variableTypes = true,
+                  variableTypes = false,
                   functionReturnTypes = true,
                   callArgumentNames = true,
-                  parameterNames = true,
+                  parameterNames = false,
                 },
               },
             },
