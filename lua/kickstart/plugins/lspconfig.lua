@@ -165,19 +165,22 @@ return {
       --  - settings (table): Override the default settings passed when initializing the server.
       local servers = {
         -- See `:help lspconfig-all` for a list of all the pre-configured LSPs
-        pyright = {
-          settings = {
-            python = {
-              disableOrganizeImports = true,
-              analysis = {
-                typeCheckingMode = 'strict', -- 'off', default = 'basic', 'strict'
-                autoSearchPaths = true, -- default = true
-                useLibraryCodeForTypes = true,
-                diagnosticMode = 'workspace', -- 'workspace', default = 'openFilesOnly'
-              },
-            },
-          },
+        ty = {
+          -- ty language server settings go here
         },
+        -- pyright = {
+        --   settings = {
+        --     python = {
+        --       disableOrganizeImports = true,
+        --       analysis = {
+        --         typeCheckingMode = 'strict', -- 'off', default = 'basic', 'strict'
+        --         autoSearchPaths = true, -- default = true
+        --         useLibraryCodeForTypes = true,
+        --         diagnosticMode = 'workspace', -- 'workspace', default = 'openFilesOnly'
+        --       },
+        --     },
+        --   },
+        -- },
         lua_ls = {
           settings = {
             Lua = {
