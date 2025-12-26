@@ -1,7 +1,6 @@
 -- Highly extendable fuzzy finder over lists.
 -- https://github.com/nvim-telescope/telescope.nvim
 
-
 -- Plugins can specify dependencies.
 
 return {
@@ -24,7 +23,7 @@ return {
       { 'nvim-telescope/telescope-ui-select.nvim' },
 
       -- Requires a Nerd Font.
-      { 'nvim-tree/nvim-web-devicons',            enabled = vim.g.have_nerd_font },
+      { 'nvim-tree/nvim-web-devicons', enabled = vim.g.have_nerd_font },
     },
     config = function()
       -- See `:Telescope_help_tags`
@@ -84,3 +83,4 @@ return {
 
 -- See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
+
