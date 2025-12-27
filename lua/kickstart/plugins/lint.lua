@@ -9,7 +9,7 @@ return {
       local lint = require 'lint'
       lint.linters_by_ft = {
         -- markdown = { 'markdownlint' },
-        python = { 'ruff' },
+        -- python = { 'ruff' }, -- Ruff Server handles this in lspconfig.lua
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
