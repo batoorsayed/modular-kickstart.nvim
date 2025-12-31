@@ -1,7 +1,7 @@
-# kickstart.nvim
+# kickstart.nvim for Python Development
 ![hmmhmmgood](doc/justwroks.png)
 
-Neovim configuration, just the way I like it. Slightly undercooked with no seasoning.
+Neovim configuration with python development in mind, just the way I like it. Slightly undercooked with no seasoning.
 
 ## Introduction
 
