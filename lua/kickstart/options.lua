@@ -16,7 +16,7 @@ vim.o.showmode = false
 -- Schedule the setting after `UiEnter` because it can increase startup-time.
 -- See `:help 'clipboard'`
 vim.schedule(function()
-  vim.o.clipboard = 'unnamedplus'
+    vim.o.clipboard = 'unnamedplus'
 end)
 
 -- Enable break indent
@@ -44,7 +44,7 @@ vim.o.splitbelow = true
 
 -- Sets how neovim will display certain whitespace characters in the editor.
 -- See `:help 'list'` and `:help 'listchars'`
--- See `:help lua-options` and `:help lua-options-guide` for vim.options vs vim.opt
+-- See `:help lua-options` and `:help lua-guide-options` for vim.options vs vim.opt
 vim.o.list = true
 vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
